@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'CoreSans-CR';
-    src: url(/static/fonts/coresans-cr/core_sans_cr_25_extralight-webfont.woff2?9402bfecd69524de0b1de8e76ff12d11) format('woff2'),
-         url(/static/fonts/coresans-cr/core_sans_cr_25_extralight-webfont.woff?56471496fa22f28032523e129d38fc8c) format('woff');
+    src: url(static/fonts/coresans-cr/core_sans_cr_25_extralight-webfont.woff2?9402bfecd69524de0b1de8e76ff12d11) format('woff2'),
+         url(static/fonts/coresans-cr/core_sans_cr_25_extralight-webfont.woff?56471496fa22f28032523e129d38fc8c) format('woff');
     font-weight: 100;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'CoreSans-CR';
-    src: url(/static/fonts/coresans-cr/core_sans_cr_35_light-webfont.woff2?9d1efffc0ce760f30480fbe210bba6c4) format('woff2'),
-         url(/static/fonts/coresans-cr/core_sans_cr_35_light-webfont.woff?21aabc234462ab55a838ee42e423bca2) format('woff');
+    src: url(static/fonts/coresans-cr/core_sans_cr_35_light-webfont.woff2?9d1efffc0ce760f30480fbe210bba6c4) format('woff2'),
+         url(static/fonts/coresans-cr/core_sans_cr_35_light-webfont.woff?21aabc234462ab55a838ee42e423bca2) format('woff');
     font-weight: 200;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'CoreSans-CR';
-    src: url(/static/fonts/coresans-cr/core_sans_cr_45_regular-webfont.woff2?bb45654227b8b293e5f1cb95ea32b707) format('woff2'),
-         url(/static/fonts/coresans-cr/core_sans_cr_45_regular-webfont.woff?e509320e8d1c79b9765d7d6be2f57e8c) format('woff');
+    src: url(static/fonts/coresans-cr/core_sans_cr_45_regular-webfont.woff2?bb45654227b8b293e5f1cb95ea32b707) format('woff2'),
+         url(static/fonts/coresans-cr/core_sans_cr_45_regular-webfont.woff?e509320e8d1c79b9765d7d6be2f57e8c) format('woff');
     font-weight: 400;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'CoreSans-CR';
-    src: url(/static/fonts/coresans-cr/core_sans_cr_55_medium-webfont.woff2?4bdedaeec13981e9cd8ab497d42ebeee) format('woff2'),
-         url(/static/fonts/coresans-cr/core_sans_cr_55_medium-webfont.woff?e32efee08d588ad8d3cb1662c12273a4) format('woff');
+    src: url(static/fonts/coresans-cr/core_sans_cr_55_medium-webfont.woff2?4bdedaeec13981e9cd8ab497d42ebeee) format('woff2'),
+         url(static/fonts/coresans-cr/core_sans_cr_55_medium-webfont.woff?e32efee08d588ad8d3cb1662c12273a4) format('woff');
     font-weight: 500;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'CoreSans-CR';
-    src: url(/static/fonts/coresans-cr/core_sans_cr_65_bold-webfont.woff2?7f2f7e40fb19713c6152c6f7d274b648) format('woff2'),
-         url(/static/fonts/coresans-cr/core_sans_cr_65_bold-webfont.woff?59e8bac281068e7ba39e67f1d276b338) format('woff');
+    src: url(static/fonts/coresans-cr/core_sans_cr_65_bold-webfont.woff2?7f2f7e40fb19713c6152c6f7d274b648) format('woff2'),
+         url(static/fonts/coresans-cr/core_sans_cr_65_bold-webfont.woff?59e8bac281068e7ba39e67f1d276b338) format('woff');
     font-weight: 700;
     font-style: normal;
 
@@ -1306,8 +1306,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1);
-  src: url(/static/fonts/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1?#iefix) format("embedded-opentype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43afc071aa2f4e1512) format("truetype"), url(/static/fonts/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760#glyphicons_halflingsregular) format("svg"); }
+  src: url(static/fonts/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1);
+  src: url(static/fonts/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1?#iefix) format("embedded-opentype"), url(static/fonts/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"), url(static/fonts/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"), url(static/fonts/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43afc071aa2f4e1512) format("truetype"), url(static/fonts/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760#glyphicons_halflingsregular) format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -7141,7 +7141,7 @@ body {
   border-bottom: 4px solid #27ae60; }
 
 .login .banner {
-  background-image: url(/static/img/login_bg.jpg?020525526c993f2e8983adb96afb73c9);
+  background-image: url(static/img/login_bg.jpg?020525526c993f2e8983adb96afb73c9);
   background-size: cover; }
 
 .login-section {
