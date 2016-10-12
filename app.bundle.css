@@ -1278,6 +1278,9 @@ div[toast].ng-leave.ng-leave-active {
 .w4-fg {
   color: #E0E0E0; }
 
+.w5-fg {
+  color: #DBDBDB; }
+
 .w1-bg {
   background-color: #ffffff; }
 
@@ -1287,8 +1290,8 @@ div[toast].ng-leave.ng-leave-active {
 .w3-bg {
   background-color: #E6E6E6; }
 
-.w4-bg {
-  background-color: #E0E0E0; }
+.w5-bg {
+  background-color: #DBDBDB; }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -7590,13 +7593,13 @@ form .form-group {
   border-radius: 10px; }
 
 .lesson-selection .see-it-name-it {
-  background-color: #19B5FE; }
+  background-color: #29c5ff; }
 
 .lesson-selection .see-it-play-it {
-  background-color: #4eec91; }
+  background-color: #5efca1; }
 
 .lesson-selection .hear-it-name-it {
-  background-color: #FF8C7C; }
+  background-color: #FFAC9C; }
 
 .lesson .question {
   font-size: 28px;
@@ -7607,30 +7610,26 @@ form .form-group {
 .lesson .display cm-piano svg {
   max-height: 140px; }
 
-.lesson .answer {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .lesson .answer a.note-name {
   height: 100px;
   width: 100px;
   border: 2px solid #E9E9E9;
   border-radius: 10px;
   margin: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  display: inline-block;
+  text-align: center; }
 
 .lesson .answer a.note-name .content {
   font-size: 28px;
   color: #303030; }
 
 .lesson .result {
-  background-color: #E0E0E0;
+  background-color: #DBDBDB;
   margin: 15px 0px -15px 0px;
   padding: 15px;
-  height: 100px; }
+  height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
 
 .sell {
   padding-top: 60px; }
