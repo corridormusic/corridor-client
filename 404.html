@@ -41,19 +41,19 @@
   ga('create', 'UA-89704639-1', 'auto');
   ga('send', 'pageview');
 
-  // var source = getParameterByName('utm_source');
-  // if (source) { ga('set', 'campaignSource', source); }
-  //
-  // function getParameterByName(name, url) {
-  //   if (!url) { url = window.location.href; }
-  //   name = name.replace(/[\[\]]/g, '\\$&');
-  //   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'), results = regex.exec(url);
-  //   if (!results) { return null; } if (!results[2]) { return ''; }
-  //   return decodeURIComponent(results[2].replace(/\+/g, ' '));
-  // }
+  function getQueryParam(key) {
+      var matches = window.location.search.match('(\\?|&)' + key + '\\=([^&]*)');
+      return decodeURIComponent(matches ? matches.pop() : '');
+  }
+
+  var referrer = getQueryParam('utm_source');
+  if (referrer) {
+      var expiration = new Date(Date.now() + (7 * 24 * 60 * 60 * 1000));
+      document.cookie='cm_referrer=' + referrer + '; expires=' + expiration.toUTCString() + '; path=/;';
+  }
 </script>
 
-    <link href="/app.bundle.css?3aead971b6d28b5dc30e" rel="stylesheet"></head>
+    <link href="/app.bundle.css?9a53efa131822688182d" rel="stylesheet"></head>
     <body>
         <div class="static container-fluid text-center">
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -71,5 +71,5 @@
                 </div>
             </div>
         </div>
-    <script type="text/javascript" src="/vendor.bundle.js?3aead971b6d28b5dc30e"></script><script type="text/javascript" src="/app.bundle.js?3aead971b6d28b5dc30e"></script></body>
+    <script type="text/javascript" src="/vendor.bundle.js?9a53efa131822688182d"></script><script type="text/javascript" src="/app.bundle.js?9a53efa131822688182d"></script></body>
 </html>
